@@ -1,7 +1,8 @@
-name: MADR - simple
-description: Brukes for avgjørelser for DGM (forenklet versjon)
+name: DGM - Beslutning - forenklet versjon
+description: Brukes for avgjørelser for DGM
 title: "[Decision]: "
 labels: ["kind/decision"]
+projects: ["Altinn/91"]
 body:
   - type: markdown
     attributes:
@@ -24,5 +25,5 @@ body:
   - type: textarea
     id: Konklusjon
     attributes:
-      label: Relevant log output
+      label: Konklusjon
       description: Beskrivelse av konklusjonen
