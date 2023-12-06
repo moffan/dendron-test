@@ -1,0 +1,28 @@
+name: MADR - simple
+description: Brukes for avgjørelser for DGM (forenklet versjon)
+title: "[Decision]: "
+labels: ["kind/decision"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: Beskrivelse
+    attributes:
+      label: Beskrivelse
+      description: Beskrivelse av problemstillingen
+    validations:
+      required: true
+  - type: textarea
+    id: Anbefaling
+    attributes:
+      label: Anbefaling?
+      description: Hvordan bør / kan dette løses
+    validations:
+      required: true
+  - type: textarea
+    id: Konklusjon
+    attributes:
+      label: Relevant log output
+      description: Beskrivelse av konklusjonen
